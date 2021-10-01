@@ -1,6 +1,6 @@
-const welcome = (user_name, verification_url) =>{
+const welcome = (userName, verificationUrl) =>{
 
-    `<!doctype html>
+    const html = `<!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
         xmlns:o="urn:schemas-microsoft-com:office:office">
     
@@ -805,7 +805,7 @@ const welcome = (user_name, verification_url) =>{
     
     
                                                                                 <img align="left" alt=""
-                                                                                    src="./images/loaderLogo.gif"
+                                                                                    src="https://emparazon.com/loaderLogo.gif"
                                                                                     width="118.44"
                                                                                     style="max-width: 8334px; padding-bottom: 0px; vertical-align: bottom; display: inline !important; border: 1px none;"
                                                                                     class="mcnImage">
@@ -865,7 +865,7 @@ const welcome = (user_name, verification_url) =>{
     
                                                                                 <h3><span
                                                                                         style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">Merhaba
-                                                                                        ${{user_name}},</span></h3>
+                                                                                        ${userName},</span></h3>
     
                                                                                 <p><br>
                                                                                     <span
@@ -881,7 +881,7 @@ const welcome = (user_name, verification_url) =>{
                                                                 etmek&nbsp;için&nbsp;aşağıdaki
                                                                 butona tıklamanız yeterlidir.</span>
                                                                                 </p>
-                                                                                <img style="display:block;float: right;margin-right: 30px; width: 150px;height:150px;" src="./images/logoBlackBig.jpg" alt="">
+                                                                                <img style="display:block;float: right;margin-right: 30px; width: 150px;height:150px;" src="https://emparazon.com/logoBlack.png" alt="">
     
                                                                             </td>
                                                                         </tr>
@@ -935,7 +935,7 @@ const welcome = (user_name, verification_url) =>{
     
                                                                                     }
                                                                                 </style>
-                                                                                <div class="all"><a href="${{verification_url}}"
+                                                                                <div class="all"><a href="${verificationUrl}"
                                                                                         style="color:white;">Üyeliğinizi aktif etmek için tıklayınız. </a></div>
     
                                                                             </td>
@@ -1066,7 +1066,7 @@ const welcome = (user_name, verification_url) =>{
                                                                                                                                                                 class="mcnFollowIconContent">
                                                                                                                                                                 <a href="https://www.instagram.com/emparazon/"
                                                                                                                                                                     target="_blank"><img
-                                                                                                                                                                        src="./icons/instagram.png"
+                                                                                                                                                                        src="https://emparazon.com/instagramLogo.png"
                                                                                                                                                                         alt="Instagram"
                                                                                                                                                                         style="display:block;"
                                                                                                                                                                         height="24"
@@ -1131,9 +1131,9 @@ const welcome = (user_name, verification_url) =>{
                                                                                                                                                                 valign="middle"
                                                                                                                                                                 width="24"
                                                                                                                                                                 class="mcnFollowIconContent">
-                                                                                                                                                                <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FViewcars-100496662035836%2F"
+                                                                                                                                                                <a href="https://www.facebook.com/Emparazon-106165404978726"
                                                                                                                                                                     target="_blank"><img
-                                                                                                                                                                        src="./icons/facebook-logo-2019.png"
+                                                                                                                                                                        src="https://emparazon.com/facebookLogo.png"
                                                                                                                                                                         alt="Facebook"
                                                                                                                                                                         style="display:block;"
                                                                                                                                                                         height="24"
@@ -1198,9 +1198,9 @@ const welcome = (user_name, verification_url) =>{
                                                                                                                                                                 valign="middle"
                                                                                                                                                                 width="24"
                                                                                                                                                                 class="mcnFollowIconContent">
-                                                                                                                                                                <a href="https://www.linkedin.com/company/viewcars-t%C3%BCrkiye/"
+                                                                                                                                                                <a href="https://www.linkedin.com/company/emparazon"
                                                                                                                                                                     target="_blank"><img
-                                                                                                                                                                        src="./icons/linkedin.png"
+                                                                                                                                                                        src="https://emparazon.com/linkedinLogo.png"
                                                                                                                                                                         alt="LinkedIn"
                                                                                                                                                                         style="display:block;"
                                                                                                                                                                         height="24"
@@ -1257,7 +1257,7 @@ const welcome = (user_name, verification_url) =>{
                                                                                                                                                                 class="mcnFollowIconContent">
                                                                                                                                                                 <a href="https://t.me/emparazon"
                                                                                                                                                                     target="_blank"><img
-                                                                                                                                                                        src="./icons/telegram.png"
+                                                                                                                                                                        src="https://emparazon.com/telegramLogo.png"
                                                                                                                                                                         alt="Telegram"
                                                                                                                                                                         style="display:block;"
                                                                                                                                                                         height="24"
@@ -1403,4 +1403,6 @@ const welcome = (user_name, verification_url) =>{
     </body>
     
     </html>`
+
+    return html;
 }

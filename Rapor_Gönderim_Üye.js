@@ -1043,7 +1043,7 @@ const report_send = (user_name) =>{
                                                                                                                                                                 class="mcnFollowIconContent">
                                                                                                                                                                 <a href="https://www.instagram.com/emparazon/"
                                                                                                                                                                     target="_blank"><img
-                                                                                                                                                                        src="./icons/instagram.png"
+                                                                                                                                                                        src="https://emparazon.com/instagramLogo.png"
                                                                                                                                                                         alt="Instagram"
                                                                                                                                                                         style="display:block;"
                                                                                                                                                                         height="24"
@@ -1175,9 +1175,9 @@ const report_send = (user_name) =>{
                                                                                                                                                                 valign="middle"
                                                                                                                                                                 width="24"
                                                                                                                                                                 class="mcnFollowIconContent">
-                                                                                                                                                                <a href="https://www.linkedin.com/company/viewcars-t%C3%BCrkiye/"
+                                                                                                                                                                <a href="https://www.linkedin.com/company/emparazon"
                                                                                                                                                                     target="_blank"><img
-                                                                                                                                                                        src="./icons/linkedin.png"
+                                                                                                                                                                        src="https://emparazon.com/linkedinLogo.png"
                                                                                                                                                                         alt="LinkedIn"
                                                                                                                                                                         style="display:block;"
                                                                                                                                                                         height="24"
@@ -1234,7 +1234,7 @@ const report_send = (user_name) =>{
                                                                                                                                                                 class="mcnFollowIconContent">
                                                                                                                                                                 <a href="https://t.me/emparazon"
                                                                                                                                                                     target="_blank"><img
-                                                                                                                                                                        src="./icons/telegram.png"
+                                                                                                                                                                        src="https://emparazon.com/telegramLogo.png"
                                                                                                                                                                         alt="Telegram"
                                                                                                                                                                         style="display:block;"
                                                                                                                                                                         height="24"
