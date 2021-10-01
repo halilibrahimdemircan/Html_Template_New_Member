@@ -1,5 +1,5 @@
-const package_buy = (user_name, package_type) => {
-    `<!doctype html>
+const new_subscription = (userName, packageType) => {
+    const html = `<!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
         xmlns:o="urn:schemas-microsoft-com:office:office">
     
@@ -864,11 +864,11 @@ const package_buy = (user_name, package_type) => {
     
                                                                                 <h3><span
                                                                                         style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">Merhaba
-                                                                                        ${{user_name}},</span></h3>
+                                                                                        ${userName},</span></h3>
     
                                                                                 <p><br>
                                                                                     <span
-                                                                                        style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">Emparazonu tercih ettiğiniz için teşekkürler.&nbsp; Satın almış olduğunuz ${{package_type}} hesabınıza tanımlanmıştır. Paketinizi iptal etmediğiniz taktirde paket süresi dolduğunda otomatik olarakyenilenecektir. İyi çalışmalar dileriz.<br>
+                                                                                        style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif;">Emparazonu tercih ettiğiniz için teşekkürler.&nbsp; Satın almış olduğunuz ${packageType} hesabınıza tanımlanmıştır. Paketinizi iptal etmediğiniz taktirde paket süresi dolduğunda otomatik olarakyenilenecektir. İyi çalışmalar dileriz. <br>
                                                                                         <br>
                                                                                         </span>
                                                                                 </p>
@@ -1380,4 +1380,6 @@ const package_buy = (user_name, package_type) => {
     </body>
     
     </html>`
+
+    return html ;
 }

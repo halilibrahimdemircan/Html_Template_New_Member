@@ -1,5 +1,5 @@
-const report_send = (user_name) =>{
-    `<!doctype html>
+const report_send = (userName) =>{
+    const html = `<!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
         xmlns:o="urn:schemas-microsoft-com:office:office">
     
@@ -864,7 +864,7 @@ const report_send = (user_name) =>{
     
                                                                                 <h3><span
                                                                                         style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">Merhaba
-                                                                                        ${{user_name}},</span></h3>
+                                                                                        ${userName},</span></h3>
     
                                                                                 <p><br>
                                                                                     <span
@@ -1380,4 +1380,5 @@ const report_send = (user_name) =>{
     </body>
     
     </html>`
+    return html;
 }

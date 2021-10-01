@@ -1,5 +1,5 @@
-const cancel_sub = (user_name,package_type) => {
-    `<!doctype html>
+const end_sub = (userName,packageType) => {
+    const html = `<!doctype html>
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
         xmlns:o="urn:schemas-microsoft-com:office:office">
     
@@ -864,11 +864,11 @@ const cancel_sub = (user_name,package_type) => {
     
                                                                                 <h3><span
                                                                                         style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">Merhaba
-                                                                                        ${{user_name}},</span></h3>
+                                                                                        ${userName},</span></h3>
     
                                                                                 <p><br>
                                                                                     <span
-                                                                                        style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">Emparazon ${{package_type}} üyeliğiniz sonlandırılmıştır. Üyeliğinizi bizden kaynaklı sebeplerden sonladırmak istediyseniz lütfen e-posta adresimize bildirim gönderiniz. Saygılarımızla. &nbsp; <br>
+                                                                                        style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">Emparazon ${packageType} üyeliğiniz sonlandırılmıştır. Üyeliğinizi bizden kaynaklı sebeplerden sonladırmak istediyseniz lütfen e-posta adresimize bildirim gönderiniz. Saygılarımızla. &nbsp; <br>
                                                                                         <br>
                                                                                         </span>
                                                                                 </p>
@@ -1380,4 +1380,6 @@ const cancel_sub = (user_name,package_type) => {
     </body>
     
     </html>`
+
+    return html ;
 }
